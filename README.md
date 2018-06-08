@@ -4,6 +4,12 @@
 
 A repository on resources about Mendelian Randomization.
 
+## Overview
+
+Basu: great. Nothing particular; I’d say to choose two core papers, perhaps one more methodological and one more applied, and send them out at least a week in advance to the group. Also one more addition to the group that’s not on the prior email list: Anusha.Vable@ucsf.edu
+
+Constantinos: you should definitely talk about the risk of pleiotropy and the difference between horizontal and vertical pleiotropy and the methods to correct for this statistically (horizontal, vertical is no problem) but also that the closer the exposure is to the gene (eg dna rna protein traits enviroment); the more protected you are from pleiotropy
+
 ## Resources
 
 ### Methodological
