@@ -2,7 +2,7 @@
 
 <div align="justify">
 
-A repository on resources about Mendelian Randomization
+A repository on resources about Mendelian Randomization.
 
 ## Resources
 
@@ -25,6 +25,11 @@ https://www.ncbi.nlm.nih.gov/pubmed/27959767
 https://www.bmj.com/content/361/bmj.k2022
 
 https://www.ncbi.nlm.nih.gov/pubmed/28855160
+
+
+## Acknowledgements
+
+Constantinos Parisinos
 
 
 
