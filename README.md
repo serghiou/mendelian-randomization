@@ -16,9 +16,9 @@ Constantinos: you should definitely talk about the risk of pleiotropy and the di
 
 [Using genetic data to strengthen causal inference in observational research (Nat Rev Gen, 2018)](https://www.nature.com/articles/s41576-018-0020-3)
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5976434/
+[The MR-Base platform supports systematic causal inference across the human phenome (eLife, 2018)](https://elifesciences.org/articles/34408)
 
-https://www.ncbi.nlm.nih.gov/pubmed/25064373?access_num=25064373&link_type=MED&dopt=Abstract
+[Mendelian randomization: genetic anchors for causal inference in epidemiological studies (Hum Mol Gen, 2014)](https://www.ncbi.nlm.nih.gov/pubmed/25064373?access_num=25064373&link_type=MED&dopt=Abstract)
 
 ### Practical guides
 
