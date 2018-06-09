@@ -14,7 +14,7 @@ Constantinos: you should definitely talk about the risk of pleiotropy and the di
 
 ### Methodological
 
-[Using genetic data to strengthen causal inference in observational research](https://www.nature.com/articles/s41576-018-0020-3)
+[Using genetic data to strengthen causal inference in observational research (Nat Rev Gen, 2018)](https://www.nature.com/articles/s41576-018-0020-3)
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5976434/
 
