@@ -22,17 +22,19 @@ Constantinos: you should definitely talk about the risk of pleiotropy and the di
 
 ### Practical guides
 
-https://www.ncbi.nlm.nih.gov/pubmed/28596306
+[Mendelian randomisation in cardiovascular research: an introduction for clinicians (Heart, 2017)](http://heart.bmj.com/content/103/18/1400.long)
 
-https://www.ncbi.nlm.nih.gov/pubmed/?term=swerdlow%20selecting%20instruments
+[Selecting instruments for Mendelian randomization in the wake of genome-wide association studies (IJE, 2016)](https://academic.oup.com/ije/article-lookup/doi/10.1093/ije/dyw088)
 
 ### Use cases
 
-https://www.ncbi.nlm.nih.gov/pubmed/27959767
+[Variation in PCSK9 and HMGCR and Risk of Cardiovascular Disease and Diabetes (NEJM, 2016)](https://www.nejm.org/doi/10.1056/NEJMoa1604304?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov)
 
-https://www.bmj.com/content/361/bmj.k2022
+[Education and myopia: assessing the direction of causality by mendelian randomisation (BMJ, 2018)](https://www.bmj.com/content/361/bmj.k2022)
 
-https://www.ncbi.nlm.nih.gov/pubmed/28855160
+[Education and coronary heart disease: mendelian randomisation study (BMJ, 2017)](https://www.bmj.com/content/358/bmj.j3542.long)
+
+[https://www.ncbi.nlm.nih.gov/pubmed/29775600 (Gastroenterology, 2018)](https://www.ncbi.nlm.nih.gov/pubmed/29775600)
 
 ### Video overviews
 
