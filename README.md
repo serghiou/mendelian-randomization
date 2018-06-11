@@ -36,7 +36,7 @@ Constantinos: you should definitely talk about the risk of pleiotropy and the di
 
 [Education and coronary heart disease: mendelian randomisation study (BMJ, 2017)](https://www.bmj.com/content/358/bmj.j3542.long)
 
-[Variation in Interleukin 6 Receptor Gene Associates with Risk of Crohn's Disease and Ulcerative Colitis (Gastroenterology, 2018)](https://www.ncbi.nlm.nih.gov/pubmed/29775600)
+[Variation in IL-6 Receptor Gene Associates with Risk of Crohn's Disease and Ulcerative Colitis (Gastroenterology, 2018)](https://www.ncbi.nlm.nih.gov/pubmed/29775600)
 
 ### Video overviews
 
