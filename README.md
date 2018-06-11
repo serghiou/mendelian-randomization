@@ -38,7 +38,7 @@ Constantinos: you should definitely talk about the risk of pleiotropy and the di
 
 ### Video overviews
 
-[George Davey Smith - How our genes conduct radomised trials](https://youtu.be/rjMwcTttKoQ)
+[George Davey Smith - How our genes conduct radomised trials (YouTube, 2013)](https://youtu.be/rjMwcTttKoQ)
 
 [A two minute primer on mendelian randomisation](https://youtu.be/LoTgfGotaQ4)
 
