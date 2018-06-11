@@ -18,7 +18,7 @@ Constantinos: you should definitely talk about the risk of pleiotropy and the di
 
 [The MR-Base platform supports systematic causal inference across the human phenome (eLife, 2018)](https://elifesciences.org/articles/34408)
 
-[Mendelian randomization: genetic anchors for causal inference in epidemiological studies (Hum Mol Gen, 2014)](https://www.ncbi.nlm.nih.gov/pubmed/25064373?access_num=25064373&link_type=MED&dopt=Abstract)
+[Mendelian randomization: genetic anchors for causal inference in epidemiological studies (Hum Mol Gen, 2014)](https://academic.oup.com/hmg/article/23/R1/R89/2900899)
 
 ### Practical guides
 
