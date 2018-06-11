@@ -28,7 +28,7 @@ Constantinos: you should definitely talk about the risk of pleiotropy and the di
 
 ### Use cases
 
-[Variation in PCSK9 and HMGCR and Risk of Cardiovascular Disease and Diabetes (NEJM, 2016)](https://www.nejm.org/doi/10.1056/NEJMoa1604304?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov
+[Variation in PCSK9 and HMGCR and Risk of Cardiovascular Disease and Diabetes (NEJM, 2016)](https://www.nejm.org/doi/10.1056/NEJMoa1604304?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov)
 
 [Plasma HDL cholesterol and risk of myocardial infarction: a mendelian randomisation study (Lancet, 2012)](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(12)60312-2/abstract)
 
