@@ -6,9 +6,7 @@ A repository on resources about Mendelian Randomization.
 
 ## Overview
 
-Basu: great. Nothing particular; I’d say to choose two core papers, perhaps one more methodological and one more applied, and send them out at least a week in advance to the group. Also one more addition to the group that’s not on the prior email list: Anusha.Vable@ucsf.edu
-
-Constantinos: you should definitely talk about the risk of pleiotropy and the difference between horizontal and vertical pleiotropy and the methods to correct for this statistically (horizontal, vertical is no problem) but also that the closer the exposure is to the gene (eg dna rna protein traits enviroment); the more protected you are from pleiotropy. So look at bidirectional MR. When exposure and outcome can be both.
+We will be talking about MR, its risks (e.g. difference between horizontal and vertical pleiotropy and the methods to correct for this statistically), a few subtle points (e.g. the closer the exposure is to the gene (e.g. DNA, RNA, protein) the more protected you are from pleiotropy) and a few recent advancements (e.g. bidirectional MR when exposure and outcome can be both).
 
 ## Resources
 
