@@ -18,6 +18,8 @@ We will be talking about MR, its risks (e.g. difference between horizontal and v
 
 [Mendelian randomization: genetic anchors for causal inference in epidemiological studies (Hum Mol Gen, 2014)](https://academic.oup.com/hmg/article/23/R1/R89/2900899)
 
+[Nature as a Trialist?: Deconstructing the Analogy Between Mendelian Randomization and Randomized Trials (Epidemiology, 2017) - Miguel Hernan] (https://journals.lww.com/epidem/Abstract/2017/09000/Nature_as_a_Trialist___Deconstructing_the_Analogy.4.aspx)
+
 ### Practical guides
 
 [Mendelian randomisation in cardiovascular research: an introduction for clinicians (Heart, 2017)](http://heart.bmj.com/content/103/18/1400.long)
