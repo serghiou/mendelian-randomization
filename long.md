@@ -1,6 +1,6 @@
 # A method of data analysis you probably do not know but probably should: Mendelian Randomization
 
-<div alignt="justify">
+<div align="justify">
 
 ## TL;DR
 
