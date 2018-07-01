@@ -12,7 +12,7 @@
 
 ## Introduction
 
-Mendelian randomization can harness what we know about the human genome to inform our understanding of the association between a putative cause and effect using observational data. It was initially proposed in the late 1980s (Katan, 1986; Katan, 2004), used in a handful of occasions thru the 1990s (Gray and Wheatley, 1991) and eventually formally established in the early 2000s (Smith and Ebrahim, 2003). Since then, it has gained substantial popularity and has been used to make several claims that were upheld by randomized controlled trials (RCTs) (Bennett and Holmes, 2017). However, very few data scientists are in fact aware of how to use this method and evaluate its results. I hereby aim to offer a basic introduction to it.
+Mendelian randomization can harness what we know about the human genome to inform our understanding of the association between a putative cause and effect using observational data. It was initially proposed in the late 1980s (Katan, 1986; Katan, 2004), used in a handful of occasions thru the 1990s (Gray and Wheatley, 1991) and eventually formally established in the early 2000s (Smith and Ebrahim, 2003). Since then, it has gained substantial popularity and has been used to make several claims that were upheld by randomized controlled trials (RCTs) (Bennett and Holmes, 2017). However, very few data scientists are in fact aware of how to use this method or evaluate its results. I hereby aim to offer a basic introduction.
 
 ## Causal inference
 
