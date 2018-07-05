@@ -90,6 +90,7 @@ Under assumptions 1-4, the coefficient of ~$\hat{X}$~ converges in probability t
 
 In R, it is possible to run an IV analysis using several packages. The most commonly used ones are `AER`, `ivmodel` and `ivpack`.  In the example below, I am using a well-known dataset to identify the causal effect of education on log-wage earned. To do so, I am using father education as an IV - this is in fact not the best IV because it is easy to consider how it may violate the exchangeability assumption. This code was taken from the STATS 266 course at Stanford University.
 
+```
 # Import packages
 library(AER)       # ivreg 
 library(ivpack)    # robust.se and anderson.rubin.ci
@@ -109,6 +110,7 @@ robust.se(iv.fit1)
 
 # Calculate the Anderson-Rubin confidence interval (robust to weak instruments)
 anderson.rubin.ci(iv.fit1)
+```
 
 *Tip. For a great tutorial on IV methods for causal inference, have a look at [this] paper by Baiocchi et al. (2014).*
 
