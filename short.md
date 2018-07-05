@@ -29,7 +29,7 @@ _Tip. For more on causal inference, [this](https://www.hsph.harvard.edu/miguel-h
 
 ## Instrumental Variables (IV)
 
-To understand MR we need to first understand Instrumental Variables (IV) as MR is in fact a type of IV analysis. IV estimators were developed early on in the econometric literature (Wright, 1928; Theil, 1958) and have since been applied to measure many estimates of causal effects (e.g. estimation of effect of maternal smoking on birth weight, effect of children’s age at school entry on their eventual educational attainment, etc.). The popularity of such methods stems from their ability to circumvent the cardinal sin of observational data - confounding. 
+To understand MR we need to first understand Instrumental Variables (IV) - MR is a type of IV analysis. IV estimators were developed early on in the econometric literature (Wright, 1928; Theil, 1958) and have since been applied to measure many estimates of causal effects (e.g. estimation of effect of maternal smoking on birth weight, effect of children’s age at school entry on their eventual educational attainment, etc.). The popularity of such methods stems from their ability to circumvent the cardinal sin of observational data - confounding. 
 
 Confounding is a form of bias that arises because the treatment and outcome share a common cause - even though traditional analyses try to use our knowledge of covariates to adjust for such confounding variables, we very rarely observe all confounding variables we need to adjust for. IV analyses use a clever trick to estimate the effect of interest without relying on potentially observed or unobserved confounders. 
 
