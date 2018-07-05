@@ -8,7 +8,7 @@
 * Instrumental variables can be used for causal inference when not all confounders are known
 * Mendelian randomization (MR) is an instrumental variable method using genetic instruments
 * Advancements in MR provide an opportunity to probe previously impossible questions
-* Estimates from MR analyses should be viewed with caution as they are hard to interpret
+* Estimates from MR analyses tend to be hard to interpret and should be viewed with caution
 
 ## Introduction
 
