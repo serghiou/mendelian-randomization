@@ -31,21 +31,15 @@ _Tip. For more on causal inference, [this](https://www.hsph.harvard.edu/miguel-h
 
 To understand MR we need to first understand Instrumental Variables (IV); MR is in fact a type of IV analysis. IV estimators were developed early on in the econometric literature (Wright, 1928; Theil, 1958) and have since been applied to measure many estimates of causal effects (e.g. estimation of effect of maternal smoking on birth weight, effect of children’s age at school entry on their eventual educational attainment, etc.). The popularity of such methods stems from their ability to circumvent the most significant limitation of observational data - confounding. 
 
-Confounding is a form of bias that arises because the treatment and outcome share a common cause - even though traditional analyses try to use our knowledge of covariates to adjust for such confounding variables, we very rarely observe all confounding variables we need to adjust for. IV analyses use a clever trick to estimate the effect of interest without relying on potentially observed or unobserved confounders. 
-
-### What do we mean by an IV?
-
-Consider the following DAG, in which **X** is the exposure and **Y** is the outcome, as above. In this case, X is a cause of Y.
+Confounding is a form of bias that arises when the treatment and outcome share a common cause. Consider the following DAG, which includes observed **O** and unobserved **U** confounders. In this case, X could represent red meat eating, Y could represent cancer and O, U could represent smoking. Smokers tend to eat more red meat and also smokers have a higher risk of cancer. In this scenario, it is very difficult to know whether red meat is a cause of cancer, as any association of red with cancer may have been mediated by smoking. 
 
 (img)
 
-Now consider the following DAG, illustrating observed **O** and unobserved **U** confounders. As noted above, a confounder is a shared cause between exposure X and outcome Y and is the main difficulty in making causal statements with observational data. For example, take ingestion of red meat as a putative risk factor for cancer.  Then, consider that smokers tend to eat more red meat and that smokers have a high probability of cancer. In this scenario, it is very difficult to know whether red meat is a cause of cancer as any effect of red meat observed on cancer may in fact have been mediated by smoking. 
-
-(img)
-
-The following two DAGs illustrate the IV **Z**.  In the DAG on the left, Z is causally associated to X, but in the DAG on the right it is not - IVs do not have to be causally associated to exposure X, but if they are, it improves our ability to interpret our final estimate.
+Even though traditional analyses would solve the aforementioned problem by adjusting for confounding variables, we very rarely observe all confounding variables we need to adjust for. IV analyses use a clever trick to estimate the true effect of interest, whether we have data on all confounding variables or not. They do so by using an instrumental variable, represented as node **Z** in the following DAGs. In the DAG on the left, Z is causally associated to exposure X, but in the DAG on the right it is not - IVs do not have to be causally associated to X, but if they are, this improves our ability to interpret the meaning of our final estimate.
 
 (img) (img)
+
+For example, Lorch et al. (2012) used as an instrumental variable how far from a hospital with or without a neonatal intensive care unit (NICU) showed that when high-risk pregnanices deliver at hospitals with a neonatal intensive care unit (NICU) neonatal outcomes tend to improve. They  
 
 For Z to be an IV, it has to abide by the following 3 assumptions:
 
@@ -225,6 +219,8 @@ Imbens GW, Angrist JD. Identification and Estimation of Local Average Treatment 
 Katan M, isoforms AE. Serum cholesterol, and cancer. Lancet 1986;1:507–8.
 
 Katan MB1. Commentary: Mendelian Randomization, 18 years on. Int J Epidemiol. 2004 Feb;33(1):10-1.
+
+Lorch SA, Baiocchi M, Ahlberg CE, Small DS. The differential impact of delivery hospital on the outcomes of premature infants. Pediatrics. 2012 Aug;130(2):270-8.
 
 O’Donoghue ML, Braunwald E, White HD, et al. Effect of darapladib on major coronary events after an acute coronary syndrome: the solid-TIMI 52 randomized clinical trial. JAMA 2014;312:1006–15.
 
