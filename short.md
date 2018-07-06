@@ -39,7 +39,7 @@ Even though traditional analyses would solve the aforementioned problem by adjus
 
 (img) (img)
 
-For example, Lorch et al. (2012) used as an instrumental variable how far from a hospital with or without a neonatal intensive care unit (NICU) showed that when high-risk pregnanices deliver at hospitals with a neonatal intensive care unit (NICU) neonatal outcomes tend to improve. They  
+For example, Lorch et al. (2012) used an instrumental variable analysis to show that when high-risk pregnanices deliver at hospitals with a neonatal intensive care unit (NICU), neonatal outcomes tend to improve. They did so by using proximity of maternal residence to a hospital with a NICU versus a hospital without a NICU as the instrumental variable - this is known as near-far matching.
 
 For Z to be an IV, it has to abide by the following 3 assumptions:
 
