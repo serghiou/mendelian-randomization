@@ -122,11 +122,12 @@ MR is an IV method in which the IV of choice is genetic - most commonly this ref
 
 2. **Reverse causality.** The genetic sequence is fixed from conception, which implies that the outcome could not have possibly caused the genetic instrument.
 
-3. **GWAS.** Hundreds of genome-wide association studies (GWAS) have identified thousands of SNPs associated to many exposures. As such, there is an abundance of potential genetic instruments.
+3. **GWAS.** Hundreds of GWAS have identified thousands of SNPs associated to many exposures. As such, there is an abundance of potential genetic instruments.
 
-4. **Flexibility.** All of the already known associations between SNPs and exposures can be used to probe questions that were previously too expensive or unethical to probe. For example, it is possible to ask questions such as "does education increase myopia", without randomizing children to education or no education, probe treatment efficacy before running an RCT, probe target-mediated adverse effects and identify opportunities for drug repurposing (Bennett and Holmes, 2017).
+4. **Flexibility.** All of the already known associations between SNPs and exposures can be used to probe questions that were previously too expensive or unethical to probe. For example, it is possible to ask questions such as "does education increase myopia", without randomizing children to education or no education, probe treatment efficacy before running an RCT, probe possible adverse effects and identify opportunities for drug repurposing (Bennett and Holmes, 2017).
 
-5. **Automated causal inference.** Many are considering how recent developments in MR methods can make use of already known SNPs from large GWAS to probe questions in an automated or semi-automated fashion.
+5. **Automated causal inference.** Many are considering how recent developments in MR methods can make use of already known SNPs from large GWAS to esimate causal effects in an automated or semi-automated fashion.
+
 
 ### What are the limitations of MR?
 
