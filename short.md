@@ -39,7 +39,7 @@ Even though traditional approaches would solve the aforementioned problem by adj
 
 (img) (img)
 
-The above DAGs imply the three assumptions node Z needs to satisfy for it to be an IV.
+The above DAGs imply the three assumptions node Z needs to satisfy for it to be an IV:
 
 **Assumption 1: Relevance.** There is an association (causal or non-causal) between Z and X. The stronger this association between Z and X, the better.
 
@@ -51,7 +51,7 @@ The above DAGs imply the three assumptions node Z needs to satisfy for it to be 
 
 (img)
 
-One of the best examples of an IV is the proximity of residence from a hospital. Lorch et al. (2012) used this proximity as an instrumental variable to show that when high-risk pregnanices deliver at hospitals with a neonatal intensive care unit (NICU), neonatal outcomes tend to improve. Notice that proximity to a hospital can predict which hospital a pregnant woman may attend, but would not conceivably be related to neonatal outcomes (in this case). For many more examples of IVs and a more in-depth description of IV methods read through a superb overview by Baiocchi et al. (2014).
+A good example of an IV is the proximity of residence from a hospital. Lorch et al. (2012) used this proximity as an instrumental variable to show that when high-risk pregnanices deliver at hospitals with a neonatal intensive care unit (NICU), neonatal outcomes tend to improve. Notice that proximity to a hospital can predict which hospital a pregnant woman may attend, but would not conceivably be related to neonatal outcomes (in this case). For many more examples of IVs and a more in-depth description of IV methods read through a superb overview by Baiocchi et al. (2014).
 
 Even though the above assumptions are enough to call Z an IV, we need a further assumption to be able to estimate the effect of X on Y. This effect is known as the Complier Average Causal Effect (CACE).
 
