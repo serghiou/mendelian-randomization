@@ -31,21 +31,19 @@ _Tip. For more on causal inference, [this](https://www.hsph.harvard.edu/miguel-h
 
 To understand MR we need to understand IV analysis, as MR is a type of IV analysis. IV estimators were developed early on in the econometric literature (Wright, 1928; Theil, 1958) and have since been applied to estimate many causal effects (e.g. estimation of effect of maternal smoking on birth weight, effect of children’s age at school entry on their eventual educational attainment, etc.). The popularity of such methods stems from their ability to circumvent the most significant limitation of observational data: confounding. 
 
-Confounding is a form of bias that arises when the treatment and outcome share a common cause. Consider the following DAG, which includes observed **O** and unobserved **U** confounders. In this case, X could represent red meat eating, Y could represent cancer and O, U could represent smoking. Smokers tend to eat more red meat and also smokers have a higher risk of cancer. In this scenario, it is very difficult to know whether red meat is a cause of cancer, as any association of red with cancer may have been mediated by smoking. 
+Confounding is a form of bias that arises when the treatment and outcome share a common cause. Consider the following DAG, which includes observed **O** and unobserved **U** confounders. In this case, X could represent red meat eating, Y could represent cancer and O, U could represent smoking. Smokers tend to eat more red meat and smokers also have a higher risk of cancer. In this scenario, it is difficult to know whether red meat is a cause of cancer, as the observed association may have been mediated by smoking. 
 
 (img)
 
-Even though traditional analyses would solve the aforementioned problem by adjusting for confounding variables, we very rarely observe all confounding variables we need to adjust for. IV analyses use a clever trick to estimate the true effect of interest, whether we have data on all confounding variables or not. They do so by using an instrumental variable, represented as node **Z** in the following DAGs. In the DAG on the left, Z is causally associated to exposure X, but in the DAG on the right it is not - IVs do not have to be causally associated to X, but if they are, this improves our ability to interpret the meaning of our final estimate.
+Even though traditional approaches would solve the aforementioned problem by adjusting for confounding variables using a regression analysis, we very rarely observe all confounding variables we need to adjust for. IV analyses use a clever trick to estimate the true effect of interest, whether we have data on all confounding variables or not. They do so by using an instrumental variable, represented as node **Z** in the following DAGs. Note that the IV Z may be causally related to X (DAG on the left) or merely associated to X (DAG on the right) - IVs do not have to be causally associated to X, but if they are, interpretation of what the final estimate means becomes easier.
 
 (img) (img)
 
-For example, Lorch et al. (2012) used an instrumental variable analysis to show that when high-risk pregnanices deliver at hospitals with a neonatal intensive care unit (NICU), neonatal outcomes tend to improve. They did so by using proximity of maternal residence to a hospital with a NICU versus a hospital without a NICU as the instrumental variable - this is known as near-far matching.
-
-For Z to be an IV, it has to abide by the following 3 assumptions:
+The above DAGs imply the three assumptions node Z needs to satisfy for it to be an IV.
 
 **Assumption 1: Relevance.** There is an association (causal or non-causal) between Z and X. The stronger this association between Z and X, the better.
 
-**Assumption 2: Exchangeability.** There is no line between Z and O or U. In other words, Z is not causally related to the confounders of the association between X and Y.
+**Assumption 2: Exchangeability.** There is no line between Z and O or U. In other words, Z is not associated to the confounders of the association between X and Y.
 
 (img)
 
@@ -53,13 +51,16 @@ For Z to be an IV, it has to abide by the following 3 assumptions:
 
 (img)
 
-Even though the above assumptions are enough to call Z an IV, we need a further assumption to be able to estimate the effect of X on Y, known as the Complier Average Causal Effect (CACE).
+One of the best examples of an IV is the proximity of residence from a hospital. Lorch et al. (2012) used this proximity as an instrumental variable to show that when high-risk pregnanices deliver at hospitals with a neonatal intensive care unit (NICU), neonatal outcomes tend to improve. Notice that proximity to a hospital can predict which hospital a pregnant woman may attend, but would not conceivably be related to neonatal outcomes (in this case). For many more examples of IVs and a more in-depth description of IV methods read through a superb overview by Baiocchi et al. (2014).
+
+Even though the above assumptions are enough to call Z an IV, we need a further assumption to be able to estimate the effect of X on Y. This effect is known as the Complier Average Causal Effect (CACE).
 
 **Assumption 4: Monotonicity.** This implies that there are no defiers. In other words, for a binary Z and X, no individual exposed under no treatment, i.e. X = 1 under Z = 0, would be unexposed under treatment, i.e. X = 0 under Z = 1.  For example, no person would quit smoking if smoking is cheap and not quit smoking if smoking is expensive. 
 
-Even though we can use the monotonicity assumption to estimate an effect, we need another assumption to be able to interpret our estimate of effect as the **Average Causal Effect (ACE)** - this is usually the effect of interest and the one calculated by randomized controlled trials (RCTs).
+Even though we can use the monotonicity assumption to estimate an effect, we need another assumption to interpret our estimate of effect as the **Average Causal Effect (ACE)** - this is usually the effect of interest and the one calculated by intention-to-treat analyses of randomized controlled trials (RCTs).
 
-**Assumption 5: Homogeneity.** This implies that the average effect is equal within all of compliers (i.e. those that comply with treatment), always takers (those that always receive the treatment whether they are assigned to treatment or not) and never takers (those that never receive the treatment, whether they have are assigned to treatment or not).
+**Assumption 5: Homogeneity.** This implies that the average effect is equal within all of compliers (i.e. those that comply with treatment), always takers (those that always receive the treatment whether they are assigned to treatment or not) and never takers (those that never receive the treatment, whether they are assigned to treatment or not).
+
 
 ### How do we estimate the effect of interest using an IV?
 
@@ -77,15 +78,16 @@ The above estimator is known as the Wald estimator (or IV estimator). However, t
 
 $$\hat{X} = \hat{\text{E}}\{A \mid Z, C \} = \hat{\alpha}_0 + \hat{\alpha}_1Z + \hat{\alpha}_2^TC$$
 
-** Stage 2.** Fit Y on ~$\hat{X}$~,
+**Stage 2.** Fit Y on ~$\hat{X}$~,
 
 $$\text{E}\{Y \mid \hat{X}, C \} = \mu_0 + \mu_1 \hat{X} + \mu_2^T C$$
 
 Under assumptions 1-4, the coefficient of ~$\hat{X}$~ converges in probability to the causal effect of interest and with assumption 5, this is the desired ACE.
 
+
 ### How do we do this in R?
 
-In R, it is possible to run an IV analysis using several packages. The most commonly used ones are `AER`, `ivmodel` and `ivpack`.  In the example below, I am using a well-known dataset to identify the causal effect of education on log-wage earned. To do so, I am using father education as an IV - this is in fact not the best IV because it is easy to consider how it may violate the exchangeability assumption. This code was taken from the STATS 266 course at Stanford University.
+In R, it is possible to run an IV analysis using several packages. The most commonly used ones are `AER`, `ivmodel` and `ivpack`. In the example below, I am using a well-known dataset to identify the causal effect of education on log-wage earned. To do so, I am using father education and mother education as IVs - it is possible to have more than one IVs. This code was modified from the STATS 266 course at Stanford University.
 
 ```
 # Import packages
@@ -97,7 +99,7 @@ dat <- read.table("http://statweb.stanford.edu/~rag/stat209/Mroz87.dat"
                   , header = T)
 
 # Fit model use father education as IV
-iv.fit1 <- ivreg(logWage ~ educ | fatheduc, dat)
+iv.fit1 <- ivreg(logWage ~ educ | fatheduc + motheduc, dat)
 
 # Observe model
 summary(iv.fit1, diagnostics = T)
@@ -109,7 +111,6 @@ robust.se(iv.fit1)
 anderson.rubin.ci(iv.fit1)
 ```
 
-*Tip. For a great tutorial on IV methods for causal inference, have a look at [this] paper by Baiocchi et al. (2014).*
 
 ## Mendelian Randomization
 
