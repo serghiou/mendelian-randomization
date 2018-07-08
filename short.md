@@ -174,8 +174,6 @@ MR studies are oft compared to RCTs and called "nature’s RCTs". Indeed, many a
 
 6. **Time-varying treatments.** Even though most MR studies are of time-varying treatments, the techniques I am thus far aware of are limited to settings of baseline treatments only.
 
-7. **Per protocol.** "MR studies, are often not focused on the effect of the genetic variants themselves because the goal is not generally to inform decision-making that involves direct genetic manipulation. Instead, MR studies use genetic variation to study other treatment effects that are the analogue of per-protocol effects in randomized trials." "By precisely defining the causal effects being estimated, we underscore that MR estimates are often vaguely analogous to perprotocol effects in randomized trials, and that current MR methods for estimating analogues of per-protocol effects could be biased in practice."
-
 
 ### What is best practice in running a MR study?
 
