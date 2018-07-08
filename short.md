@@ -1,4 +1,4 @@
-# A method of data analysis you probably do not know but probably should: Mendelian Randomization
+# A method for data analysis you probably do not know but probably should: Mendelian Randomization
 
 <div align="justify">
 
