@@ -91,7 +91,7 @@ Under assumptions 1-4, the coefficient of ~$\hat{X}$~ converges in probability t
 
 ### How do we do this in R?
 
-In R, it is possible to run an IV analysis using several packages. The most commonly used ones are `AER`, `ivmodel` and `ivpack`. In the example below, I am using a well-known dataset to identify the causal effect of education on log-wage earned. To do so, I am using father education and mother education as IVs - it is possible to have more than one IVs. This code was modified from the STATS 266 course at Stanford University.
+In R, it is possible to run an IV analysis using several packages. The most commonly used ones are `AER`, `ivmodel` and `ivpack`. In the example below, I am using a well-known dataset to identify the causal effect of education on log-wage earned. To do so, I am using father education and mother education as IVs (it is possible to have more than one IVs). This code was modified from the [STATS 266](http://rogosateaching.com/somgen290/) course at Stanford University.
 
 ```
 # Import packages
