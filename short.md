@@ -128,7 +128,7 @@ MR is an IV method in which the IV of choice is genetic. Most commonly this refe
 
 3. **GWAS.** Hundreds of GWAS have identified thousands of SNPs associated to many exposures. As such, there is an abundance of potential genetic instruments.
 
-4. **Flexibility.** All of the already known associations between SNPs and exposures can be used to probe questions that were previously too expensive or unethical to probe. For example, it is possible to ask questions such as "does education increase myopia", without randomizing children to education or no education, probe treatment efficacy before running an RCT, probe possible adverse effects and identify opportunities for drug repurposing (Bennett and Holmes, 2017).
+4. **Flexibility.** All of the already known associations between SNPs and exposures can be used to probe questions that were previously too expensive or unethical to probe. For example, it is possible to ask questions such as "does education increase myopia" without having to randomize children to education or no education (Mountjoy et al., 2018), probe treatment efficacy before running an RCT, probe possible adverse effects and identify opportunities for drug repurposing (Bennett and Holmes, 2017).
 
 5. **Automated causal inference.** Many are considering how recent developments in MR methods can make use of already known SNPs from large GWAS to esimate causal effects in an automated or semi-automated fashion.
 
@@ -233,6 +233,8 @@ Katan M, isoforms AE. Serum cholesterol, and cancer. Lancet 1986;1:507–8.
 Katan MB1. Commentary: Mendelian Randomization, 18 years on. Int J Epidemiol. 2004 Feb;33(1):10-1.
 
 Lorch SA, Baiocchi M, Ahlberg CE, Small DS. The differential impact of delivery hospital on the outcomes of premature infants. Pediatrics. 2012 Aug;130(2):270-8.
+
+Mountjoy E, Davies NM, Plotnikov D, Smith GD, Rodriguez S, Williams CE, Guggenheim JA, Atan D. Education and myopia: assessing the direction of causality by mendelian randomisation. BMJ. 2018 Jun 6;361:k2022
 
 O’Donoghue ML, Braunwald E, White HD, et al. Effect of darapladib on major coronary events after an acute coronary syndrome: the solid-TIMI 52 randomized clinical trial. JAMA 2014;312:1006–15.
 
