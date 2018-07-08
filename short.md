@@ -64,7 +64,9 @@ Even though we can use the monotonicity assumption to estimate an effect, we nee
 
 ### How do we estimate the effect of interest using an IV?
 
-Let us define,  ~$\beta = \text{effect}$~. Then, by the DAG above we can see that,
+#### Wald estimator (= IV estimator)
+
+This estimator is defined for binary exposure and IV. Let us define,  ~$\beta = \text{effect}$~. Then, by the DAG above we can see that,
 
 $$\beta_{zy} = \beta_{zx} \beta_{xy} \quad \Rightarrow \quad \beta_{xy} = \frac{\beta_{zy}}{\beta_{zx}}$$
 
@@ -72,7 +74,9 @@ This implies that, for a binary exposure and IV, the estimator of effect is,
 
 $$\frac{\text{E}\{Y \mid Z = 1 \} - \text{E}\{Y \mid Z = 0 \}}{\text{E}\{X = 1 \mid Z = 1 \} - \text{E}\{X = 0 \mid Z = 0 \}}$$
 
-The above estimator is known as the Wald estimator (or IV estimator). However, the most commonly used estimator is the **Two-Stage Least Squares (TSLS)** estimator. This procedure calculates the estimate of interest in two stages:
+#### Two-Stage Least Squares (TSLS)
+
+This is the most commonly used estimator and it calculates the estimate of interest in two stages:
 
 **Stage 1.** Fit X on Z and possible covariates C by ordinary least squares (OLS) and compute the predicted value ~$\hat{X}$~,
 
