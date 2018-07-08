@@ -31,7 +31,7 @@ _Tip. For more on causal inference, [this](https://www.hsph.harvard.edu/miguel-h
 
 To understand MR we need to understand IV methods, as MR is a type of IV method. IV estimators were developed early on in the econometric literature (Wright, 1928; Theil, 1958) and have since been applied to estimate many causal effects (e.g. estimation of effect of maternal smoking on birth weight, effect of children’s age at school entry on their eventual educational attainment, etc.). The popularity of such methods stems from their ability to circumvent the most significant limitation of observational data: confounding. 
 
-Confounding is a form of bias that arises when the treatment and outcome share a common cause. Consider the following DAG, which includes observed **O** and unobserved **U** confounders. In this case, X could represent red meat eating, Y could represent cancer and O, U could represent smoking. Smokers tend to eat more red meat and smokers also have a higher risk of cancer. In this scenario, it is difficult to know whether red meat is a cause of cancer, as the observed association may have been mediated by smoking. 
+Confounding is a form of bias that arises when the treatment and outcome share a common cause. Consider the following DAG, which includes observed **O** and unobserved **U** confounders. In this case, X could represent red meat eating, Y could represent cancer and O, U could represent smoking. Smokers tend to eat more red meat and they also have a higher risk of cancer. In this scenario, we know that red meat can predict cancer, but it is difficult to know whether the observed association was mediated through smoking or not. 
 
 (img)
 
