@@ -118,7 +118,7 @@ anderson.rubin.ci(iv.fit1)
 
 ## Mendelian Randomization
 
-MR is an IV method in which the IV of choice is genetic - most commonly this refers to a single nucleotide polymorphism (SNP). The correlation of SNPs to variables usually arise from Genome-Wide Association Studies (GWAS). Each SNP used in MR tends to be taken from a different gene. The term "Mendelian randomization" was inspired from  the "random assortment of alleles during meiosis where DNA is transferred from parent to offspring at the time of gamete formation, a process named Mendel’s second law" (Bennett and Holmes, 2017).
+MR is an IV method in which the IV of choice is genetic. Most commonly this refers to a single nucleotide polymorphism (SNP), the correlation of which to variables usually arises from Genome-Wide Association Studies (GWAS). Each SNP used in MR tends to be taken from a different gene. The term "Mendelian randomization" was inspired from  the "random assortment of alleles during meiosis where DNA is transferred from parent to offspring at the time of gamete formation, a process named Mendel’s second law" (Bennett and Holmes, 2017).
 
 ### What are the benefits of MR?
 
