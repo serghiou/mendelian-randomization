@@ -53,9 +53,9 @@ The above DAGs imply the three assumptions node Z needs to satisfy for it to be 
 
 A good example of an IV is the proximity of residence from a hospital. Lorch et al. (2012) used this proximity as an instrumental variable to show that when high-risk pregnanices deliver at hospitals with a neonatal intensive care unit (NICU), neonatal outcomes tend to improve. Notice that proximity to a hospital can predict which hospital a pregnant woman may attend, but would not conceivably be related to neonatal outcomes (in this case). For many more examples of IVs and a more in-depth description of IV methods read through a superb overview by Baiocchi et al. (2014).
 
-Even though the above assumptions are enough to call Z an IV, we need a further assumption to be able to estimate the effect of X on Y. This effect is known as the Complier Average Causal Effect (CACE).
+Even though the above assumptions are enough to call Z an IV, we need a further assumption to be able to estimate the effect of X on Y. This effect is known as the Complier Average Causal Effect (CACE), meaning that it represents the average effect in those that comply with treatment.
 
-**Assumption 4: Monotonicity.** This implies that there are no defiers. In other words, for a binary Z and X, no individual exposed under no treatment, i.e. X = 1 under Z = 0, would be unexposed under treatment, i.e. X = 0 under Z = 1.  For example, no person would quit smoking if smoking is cheap and not quit smoking if smoking is expensive. 
+**Assumption 4: Monotonicity.** This implies that there are no defiers. In other words, for a binary Z and X, no individual exposed under no treatment, i.e. X = 1 when Z = 0, would be unexposed under treatment, i.e. X = 0 when Z = 1.  For example, no person would quit smoking if smoking is cheap and not quit smoking if smoking is expensive. 
 
 Even though we can use the monotonicity assumption to estimate an effect, we need another assumption to interpret our estimate of effect as the **Average Causal Effect (ACE)** - this is usually the effect of interest and the one calculated by intention-to-treat analyses of randomized controlled trials (RCTs).
 
