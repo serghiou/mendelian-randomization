@@ -184,19 +184,19 @@ First, a good MR study needs to specifically define its protocol, the main featu
 
 Theoretically, under the assumptions described above, MR should be able to identify the true causal effect. Even though by nature genetic instruments come with substantial limitations (weak instruments, horizontal pleiotropy), recent advancements in methods for producing MR studies have substantially reduced the impact of these limitations. Furthermore, so far, analyses done by MR seem to produce estimates that are fairly similar to those seen in RCTs (Voight et al., 2012; O’Donoghue et al., 2014; etc.). 
 
-However, most MR studies produce estimates that are very hard to interpret. This is because those estimates represent the local per protocol effect in the unknown subgroup of “complier” participants "who would have complied with the assigned treatment level had they been assigned to either randomization arm", i.e. they only represent effect of treatment on individuals whose treatment status can be manipulated by the IV (Imbens and Angrist, 1994; Angrist et al., 1996), but it is very hard to know who these individuals are and when using multiple IVs this becomes very complicated.  Furthermore, changes in study participation after randomization can introduce selection bias that is not accounted for in most MR studies.
+However, most MR studies produce estimates that are very hard to interpret. This is because those estimates represent the local per protocol effect (i.e. the effect in those that complied with allocated treatment) in the unknown subgroup of “complier” participants, i.e. those estimates only represent effect of treatment on individuals whose treatment status can be manipulated by the IV (Imbens and Angrist, 1994; Angrist et al., 1996). Unfortunately, it is very hard to know who these individuals are, especially when using multiple instruments or instruments non-causally associated to exposure. Furthermore, changes in study participation after randomization can introduce selection bias that is not accounted for in most MR studies.
 
 As such, estimates provided by MR studies done well and in a manner attempting to emulate an imaginary RCT can provide a substantial improvement over studies of observational data not using any methods found in causal inference. However, its estimates should be interpreted with caution and as suggestive of the possible causal effect, rather than a definitive account. Claims that MR studies can substitute RCTs are currently premature and unsubstantiated.
 
 
 ### What if not MR?
 
-There are many methods of causal inference for observational studies. The most widely known ones are inverse propensity score weighting, matching, g-computation, difference in differences, and regression discontinuity designs. A fantastic introduction on most of these topics can be found in the Imbens and Rubin book [Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction].
+There are many methods of causal inference for observational studies. The most widely known ones are inverse propensity score weighting, matching, g-computation, difference in differences and regression discontinuity designs. A fantastic introduction on most of these topics can be found in the Imbens and Rubin book [Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction].
 
 
 ## Acknowledgements
 
-In preparing this document I have used knowledge and slides from the Causal Inference workshop at Harvard. I will keep updating this article on the basis of comments received and how my own knowledge and opinions change over time. I would also like to thank Constantinos Parisinos for introducing me to the topic, providing important bibliography and giving me the opportunity to work with him on an MR study of our own (Parisinos et al., 2018).
+In preparing this document I have used knowledge and slides from the [Causal Inference workshop at Harvard](https://www.hsph.harvard.edu/causal/). I will keep updating this article on the basis of comments received and how my own knowledge and opinions change over time. I would also like to thank Constantinos Parisinos for introducing me to the topic, providing important bibliography and giving me the opportunity to work with him on an MR study of our own (Parisinos et al., 2018).
 
 
 ## Additional resources
