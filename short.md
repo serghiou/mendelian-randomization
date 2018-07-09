@@ -191,7 +191,7 @@ As such, estimates provided by MR studies done well and in a manner attempting t
 
 ### What if not MR?
 
-There are many methods of causal inference for observational studies. The most widely known ones are inverse propensity score weighting, matching, g-computation, difference in differences and regression discontinuity designs. A fantastic introduction on most of these topics can be found in the Imbens and Rubin book [Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction].
+There are many methods of causal inference for observational studies. The most widely known ones are inverse propensity score weighting, matching, g-computation, difference in differences and regression discontinuity designs. A fantastic introduction on most of these topics can be found in the Imbens and Rubin book [Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction](https://www.amazon.com/Causal-Inference-Statistics-Biomedical-Sciences/dp/0521885884).
 
 
 ## Acknowledgements
@@ -201,7 +201,7 @@ In preparing this document I have used knowledge and slides from the [Causal Inf
 
 ## Additional resources
 
- [Video by George Davey Smith.]
+ [Video by George Davey Smith.](https://www.youtube.com/watch?v=rjMwcTttKoQ&t=26s)
 
 
 ## References
